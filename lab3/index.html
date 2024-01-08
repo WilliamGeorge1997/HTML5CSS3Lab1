@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SVG Triangle</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <svg width="200" height="200">
+      <polygon
+        points="150,10 150,150 60,150"
+        style="fill: red; stroke: black; stroke-width: 2"
+      />
+      <text x="100" y="175" fill="black">a</text>
+      <text x="160" y="80" fill="black">b</text>
+      <text x="80" y="80" fill="black">c</text>
+    </svg>
+    <p>According to Pythagoras theorem:</p>
+    <math>
+      <mrow>
+        <mi>c</mi>
+        <mo>=</mo>
+        <msqrt>
+          <mrow>
+            <mrow>
+              <msup>
+                <mi>a</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+            <mo>+</mo>
+            <mrow>
+              <msup>
+                <mi>b</mi>
+                <mn>2</mn>
+              </msup>
+            </mrow>
+          </mrow>
+        </msqrt>
+      </mrow>
+    </math>
+    <script src="js/main.js"></script>
+  </body>
+</html>

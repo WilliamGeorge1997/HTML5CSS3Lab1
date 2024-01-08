@@ -1,0 +1,17 @@
+main{
+    margin-top: 80px;
+}
+table{
+    margin: auto;
+}
+input{
+    width: 500px;
+}
+label{
+    font-size: 24px;
+}
+
+#paragraph{
+    font-size: 24px;
+    text-align: center;
+}

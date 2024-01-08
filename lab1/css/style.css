@@ -1,0 +1,6 @@
+video::-webkit-media-controls{
+    display:none !important
+}
+section{
+    text-align: center;
+}
