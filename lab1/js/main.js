@@ -84,13 +84,13 @@ progress.addEventListener("input", function(){
 // ==================================================================
 // Video update time 
 function updateTimer() {
-  var currentMinutes = Math.floor(vid.currentTime / 60);
-  var currentSeconds = Math.floor(vid.currentTime % 60);
-  var totalMinutes = Math.floor(vid.duration / 60);
-  var totalSeconds = Math.floor(vid.duration % 60);
+  let currentMinutes = Math.floor(vid.currentTime / 60);
+  let currentSeconds = Math.floor(vid.currentTime % 60);
+  let totalMinutes = Math.floor(vid.duration / 60);
+  let totalSeconds = Math.floor(vid.duration % 60);
 
-  var formattedCurrentTime = (currentMinutes < 10 ? '0' : '') + currentMinutes + ':' + (currentSeconds < 10 ? '0' : '') + currentSeconds;
-  var formattedTotalTime = (totalMinutes < 10 ? '0' : '') + totalMinutes + ':' + (totalSeconds < 10 ? '0' : '') + totalSeconds;
+  let formattedCurrentTime = (currentMinutes < 10 ? '0' : '') + currentMinutes + ':' + (currentSeconds < 10 ? '0' : '') + currentSeconds;
+  let formattedTotalTime = (totalMinutes < 10 ? '0' : '') + totalMinutes + ':' + (totalSeconds < 10 ? '0' : '') + totalSeconds;
 
   currentTime.textContent = formattedCurrentTime;
   totalTime.textContent = formattedTotalTime;
